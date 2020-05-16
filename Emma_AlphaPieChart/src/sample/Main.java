@@ -52,7 +52,8 @@ public class Main extends Application {
             PieChart abc = new PieChart();
             abc.setCharNumber(n);
 
-            File text = new File("C:/Users/julia/Desktop/Emma.txt");
+            File text = new File("Emma.txt");
+
             Scanner input = null;
             try {
                 input = new Scanner(text);
